@@ -9,6 +9,11 @@ body {
 .hlavicka {
 	background-color: #3498db;
 	color: white;
+	display: flex;
+	justify-content: space-between;	
+}
+.logo {
+	font-size: 3rem;
 }
 
 a {
@@ -23,4 +28,11 @@ a:hover {
 	color: #3498db;
 }
 
+.menu {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	
+}
 /* ---------------------------------------------------- */
+
